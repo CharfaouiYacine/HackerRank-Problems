@@ -1,4 +1,5 @@
-my_alphabet = "abcdefghijklmnopqrstuvwxyz"
+import string
+my_alphabet = string.ascii_lowercase
 size = int(input("Enter the size: "))
 rangoli = my_alphabet[:size]
 max_width = size * 4 -3
