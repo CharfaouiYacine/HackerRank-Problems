@@ -9,3 +9,8 @@ def reverseArray(a):
         i += 1
         j -= 1
     return a
+
+# or another stupid solution
+def reverseArray(a):
+    a.reverse()
+    return a
